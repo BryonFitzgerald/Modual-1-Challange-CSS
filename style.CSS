@@ -1,0 +1,61 @@
+:root {
+    --main-text-color: black;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 30px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    padding: 25px;
+    background-color: blue;
+}
+
+header nav a{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.hero-banner{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-banner-img img{
+    display: flex;
+    justify-content: center;
+    width: 1424px;
+}
+
+.hero-banner h2{
+    margin: 30px 0px 30px;
+}
+
+#about{
+    padding: 15px;
+}
+
+#about h2{
+    display: flex;
+    justify-content: center;
+    /* margin: 3rem; */
+}
+
+
+
+
+
+
+
+
+
+
+
